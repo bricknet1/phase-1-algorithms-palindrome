@@ -1,9 +1,16 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  let backwardsWord = [];
+  for (let i=0; i<word.length; i++){
+    backwardsWord = word[i]+backwardsWord;
+    console.log(backwardsWord);
+  }
+  return backwardsWord === word;
 }
 
 /* 
   Add your pseudocode here
+
+
 */
 
 /*
